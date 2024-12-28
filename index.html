@@ -1,0 +1,228 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kedai kopi</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!--  Style  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#home" class="navbar-brand"
+        ><img src="img/logo.png" alt="Mukemel"
+      /></a>
+
+      <div class="navbar-nav">
+        <a href="#produk">Produk</a>
+        <a href="#workshop">Workshop</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+
+      <div class="navbar-icon">
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navbar end -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <div class="hero-text">
+          <h1>Locally sourced, Sustainable, Delicious.</h1>
+          <p>
+            Temukan rahasia di setiap biji kopi yang kami racik. Biji kopi
+            pilihan dari petani lokal yang dirawat dengan baik dan di roast
+            dengan baik untuk menciptakan rasa yang nikmat
+          </p>
+        </div>
+        <div class="hero-img">
+          <img src="img/hero-img.jpg" alt="coffee bean" />
+        </div>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <main class="content">
+        <h2>Kenali lebih dalam kopi di cangkir yang kita minum setiap hari</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Kami merupakan rumah roasteri kopi yang berasal dari Aceh,
+              berkomitmen untuk menyediakan kopi yang berkualitas tinggi. Kami
+              fokus untuk mencari biji kopi berkualitas dari petani-petani
+              lokal. Dari tanaman hingga ke cangkir di tangan Anda, kami hadir
+              dalam setiap proses menanam, memelihara, memetik, memproses,
+              memanggang, dan menyeduh.
+            </p>
+            <a href="#">Tentang kami</a>
+          </div>
+          <div class="about-img">
+            <img src="img/about-img-1.png" alt="coffee tree" />
+          </div>
+          <div class="about-img">
+            <img src="img/about-img-2.png" alt="coffee roast" class="img-2" />
+          </div>
+        </div>
+      </main>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Product Section Start -->
+    <section class="produk" id="produk">
+      <div class="title">
+        <h2>Temukan produk-produk populer dan terbatas dari kami</h2>
+        <a href="#">Selengkapnya</a>
+      </div>
+
+      <div class="row">
+        <div class="card">
+          <img src="/img/produk-1.png" alt="produk-1" />
+          <h3 class="card-title">Gayo Arabika</h3>
+          <div class="card-body">
+            <div class="price">
+              <p>Harga</p>
+              <h4>Rp. 250.000</h4>
+            </div>
+            <div class="berat">
+              <p>Berat</p>
+              <h4>250g</h4>
+            </div>
+          </div>
+          <a href="#" class="card-btn">Lihat Produk</a>
+        </div>
+        <div class="card">
+          <img src="/img/produk-2.png" alt="produk-2" />
+          <h3 class="card-title">Bali Kintanami</h3>
+          <div class="card-body">
+            <div class="price">
+              <p>Harga</p>
+              <h4>Rp. 250.000</h4>
+            </div>
+            <div class="berat">
+              <p>Berat</p>
+              <h4>250g</h4>
+            </div>
+          </div>
+          <a href="#" class="card-btn">Lihat Produk</a>
+        </div>
+        <div class="card">
+          <img src="/img/produk-3.png" alt="produk-3" />
+          <h3 class="card-title">Robusta Toraja</h3>
+          <div class="card-body">
+            <div class="price">
+              <p>Harga</p>
+              <h4>Rp. 250.000</h4>
+            </div>
+            <div class="berat">
+              <p>Berat</p>
+              <h4>250g</h4>
+            </div>
+          </div>
+          <a href="#" class="card-btn">Lihat Produk</a>
+        </div>
+      </div>
+    </section>
+    <!-- Product Section End -->
+
+    <!-- Workshop Section Start -->
+    <section class="workshop" id="workshop">
+      <main class="content">
+        <div class="title">
+          <h2>Kami memiliki cara penyajian kopi yang dapat anda ikuti</h2>
+        </div>
+        <div class="row">
+          <div class="workshop-item">
+            <img src="/img/workshop-1.jpg" alt="workshop-1" />
+            <a href="#"> Kopi Roasteri </a>
+          </div>
+          <div class="workshop-item">
+            <img src="/img/workshop-2.jpg" alt="workshop-2" />
+            <a href="#"> Kopi Brewing </a>
+          </div>
+          <div class="workshop-item">
+            <img src="/img/workshop-3.jpg" alt="workshop-3" />
+            <a href="#"> Espresso </a>
+          </div>
+        </div>
+      </main>
+    </section>
+    <!-- Workshop Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer">
+      <main class="content">
+        <div class="footer-content">
+          <div class="footer-left">
+            <img src="img/logo-footer.png" alt="logo" />
+            <p>Mukemel.info@samplemail.com</p>
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+          </div>
+
+          <div class="footer-right">
+            <div class="footer-links">
+              <h4 class="footer-links-title">Tentang Kami</h4>
+              <div class="footer-links-item">
+                <a href="#"> Tentang kami</a>
+                <a href="#"> Lokasi</a>
+                <a href="#"> Karir</a>
+                <a href="#"> FAQ</a>
+              </div>
+            </div>
+            <div class="footer-links">
+              <h4 class="footer-links-title">Workshop</h4>
+              <div class="footer-links-item">
+                <a href="#"> Cara penyajian</a>
+                <a href="#"> Artikel</a>
+                <a href="#"> Event</a>
+              </div>
+            </div>
+            <div class="newsletter">
+              <h4 class="newsletter-title">Dapatkan berita terbaru</h4>
+              <div class="newsletter-input">
+                <input type="email" placeholder="Masukkan email" />
+                <button type="button" id="footer-btn">
+                  <i data-feather="arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="copyright">&copy; 2024 Mukemel. All rights reserved</p>
+      </main>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Script -->
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- end feather icons -->
+    <!-- script source -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
